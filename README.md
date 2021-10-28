@@ -1,5 +1,7 @@
 # Small-Projects---TV API
 
+Deploy: https://martinlupa.github.io/Small-Projects---TV-API/
+
 Use of:
 
 <ul>
