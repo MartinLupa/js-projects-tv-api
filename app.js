@@ -40,7 +40,6 @@ searchForm.addEventListener('submit', async function (e) {
         cardTitle.setAttribute('class', 'cardTitle');
         cardTitle.innerText = movieName.toUpperCase();
         midCard.appendChild(cardTitle);
-
         //Card description/summary
         const cardDescription = document.createElement('p');
         cardDescription.innerHTML = movieSummary;
@@ -70,23 +69,7 @@ searchForm.addEventListener('submit', async function (e) {
   searchForm.reset();
 });
 
-//Crear form y escuchar eventos.
-//Hacer una request a la API.
-//La info que vuelve, hacer un display de las peliculas
-
-//   //Creates elements of each new movie card.
-//   const movieCard = document.createElement('div');
-//   movieCard.setAttribute('.movieCard');
-//   const cardImg = document.createElement('img');
-//   cardImg.setAttribute('.cardImg');
-//   const cardTitle = document.createElement('h4');
-//   cardTitle.setAttribute('.cardTitle');
-//   const cardDescription = document.createElement('p');
-//   const cardLink = document.createElement('a');
-
-//   //Sets data attributes to elements in each card.
-// }
-
+//Structure for Card elements to create with DOM
 /*   <div class="movieCard">
         <img class="cardImg" src="" alt="" />
         <div class="midCard">
@@ -94,5 +77,4 @@ searchForm.addEventListener('submit', async function (e) {
           <p class="cardDescription">Description</p>
           <a class="cardLink" href="">Watch movie!</a>
         </div>
-        
       </div> */
